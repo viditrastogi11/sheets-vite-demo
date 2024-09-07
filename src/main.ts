@@ -60,7 +60,7 @@ univer.createUnit(UniverInstanceType.UNIVER_SHEET, {
           "name": "vidit",
           "tabColor": "",
           "hidden": 0,
-          "rowCount": 30,
+          "rowCount": 5000,
           "columnCount": 10,
           "zoomRatio": 1,
           "freeze": {
