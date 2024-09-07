@@ -10,7 +10,6 @@ import { UniverSheetsPlugin } from "@univerjs/sheets";
 import { UniverSheetsFormulaPlugin } from "@univerjs/sheets-formula";
 import { UniverSheetsUIPlugin } from "@univerjs/sheets-ui";
 import { UniverUIPlugin } from "@univerjs/ui";
-import { UniverSheetsNumfmtPlugin } from "@univerjs/sheets-numfmt";
 
 /**
  * The ability to import locales from virtual modules and automatically import styles is provided by Univer Plugins. For more details, please refer to: https://univer.ai/guides/sheet/advanced/univer-plugins.
@@ -19,13 +18,12 @@ import { UniverSheetsNumfmtPlugin } from "@univerjs/sheets-numfmt";
  * 【从虚拟模块导入语言包】以及【自动导入样式】是由 Univer Plugins 提供的能力，详情参考：https://univer.ai/zh-CN/guides/sheet/advanced/univer-plugins
  * 如果您在使用该插件的时候出现了问题，或者无法理解如何使用，请禁用 Univer Plugins，并手动导入语言包和样式
  */
-import { zhCN, enUS } from 'univer:locales'
+import {  enUS } from 'univer:locales'
 
 const univer = new Univer({
   theme: defaultTheme,
   locale: LocaleType.EN_US,
   locales: {
-    [LocaleType.ZH_CN]: zhCN,
     [LocaleType.EN_US]: enUS,
   },
 });
@@ -44,7 +42,6 @@ univer.registerPlugin(UniverDocsUIPlugin);
 
 univer.registerPlugin(UniverSheetsPlugin);
 univer.registerPlugin(UniverSheetsUIPlugin);
-univer.registerPlugin(UniverSheetsNumfmtPlugin);
 univer.registerPlugin(UniverSheetsFormulaPlugin);
 
 // create univer sheet instance
@@ -60,7 +57,7 @@ univer.createUnit(UniverInstanceType.UNIVER_SHEET, {
   "sheets": {
       "RSfWjJFv4opmE1JaiRj80": {
           "id": "RSfWjJFv4opmE1JaiRj80",
-          "name": "测试",
+          "name": "vidit",
           "tabColor": "",
           "hidden": 0,
           "rowCount": 30,
