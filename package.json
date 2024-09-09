@@ -19,6 +19,8 @@
     "@univerjs/network": "0.2.12",
     "@univerjs/rpc": "0.2.12",
     "@univerjs/sheets": "0.2.12",
+    "@univerjs/sheets-filter": "^0.2.12",
+    "@univerjs/sheets-filter-ui": "^0.2.12",
     "@univerjs/sheets-formula": "0.2.12",
     "@univerjs/sheets-numfmt": "0.2.12",
     "@univerjs/sheets-ui": "0.2.12",
